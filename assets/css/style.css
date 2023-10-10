@@ -728,7 +728,9 @@ a.theme-btn.style-three {
   background-color: #ffffff;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url(../images/preloader.gif);
+  background-size: 75px;
+  background-image: url(../images/preloader.jpg);
+  display: none;
 }
 
 /* Pagination */
@@ -9756,7 +9758,7 @@ blockquote .blockquote-footer:before {
 }
 
 .logo-outer img {
-  height: 50px;
+  height: 40px !important;
 }
 
 .property-details-list li {
@@ -9769,4 +9771,12 @@ blockquote .blockquote-footer:before {
 .property-details-list li h6 {
   font-weight: 600;
   font-size: 1.2rem;
+}
+
+.footer-logo img {
+  height: 60px;
+}
+
+.mobile-logo img {
+  height: 40px;
 }

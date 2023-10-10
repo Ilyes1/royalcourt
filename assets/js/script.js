@@ -612,29 +612,29 @@
        When document is loaded, do
        ========================================================================== */
 
-    $(window).on('load', function () {
+    // $(window).on('load', function () {
 
-        // ## Preloader
-        function handlePreloader() {
-            if ($('.preloader').length) {
-                $('.preloader').delay(200).fadeOut(500);
-            }
-        }
-        handlePreloader();
+    //     // ## Preloader
+    //     function handlePreloader() {
+    //         if ($('.preloader').length) {
+    //             $('.preloader').delay(200).fadeOut(500);
+    //         }
+    //     }
+    //     handlePreloader();
         
         
-        // ## Gallery Filtering
-        if ($('.gallery-masonry-active').length) {
-            $(this).imagesLoaded(function () {
-                $('.gallery-masonry-active').isotope({
-                    // options
-                    itemSelector: '.item',
-                });
-            });
-        }
+    //     // ## Gallery Filtering
+    //     if ($('.gallery-masonry-active').length) {
+    //         $(this).imagesLoaded(function () {
+    //             $('.gallery-masonry-active').isotope({
+    //                 // options
+    //                 itemSelector: '.item',
+    //             });
+    //         });
+    //     }
           
         
-    });
+    // });
 
 
     $('#quotationMessage').val('I would like to receive more information about 1005 N Alpine DR.')
